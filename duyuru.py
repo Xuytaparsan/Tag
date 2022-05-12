@@ -20,7 +20,7 @@ async def son_durum(event):
     sender = await event.get_sender()
     if sender.id not in ozel_list:
       return
-    await event.respond(f"**Gece kuşu Tagger İstatistikleri 🤖**\n\nToplam Grup: `{len(grup_sayi)}`\nAnlık Çalışan Grup: `{len(anlik_calisan)}`")
+    await event.respond(f"**𝐋𝐮𝐱𝐮𝐫𝐲 | 𝐓𝐚𝐠𝐠𝐞𝐫 🇦🇿 İstatistikleri 🤖**\n\nToplam Grup: `{len(grup_sayi)}`\nİndi işləyən Grup: `{len(anlik_calisan)}`")
 
 
 @client.on(events.NewMessage(pattern='^/botreklam ?(.*)'))
